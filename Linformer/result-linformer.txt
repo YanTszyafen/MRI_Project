@@ -1,0 +1,70 @@
+Epoch:100
+Loss value in the last epoch of training is:0.013503901660442352
+Accuracy in the last epoch of training is:0.9956285357475281
+Accuracy of training:0.9605274677172247
+Precision of training:0.9597233236701735
+Recall of training:0.9590669995946096
+Macro f1 score of training:0.9593387992294333
+Classification report of training:
+              precision    recall  f1-score   support
+
+           0    0.96441   0.93886   0.95146    105700
+           1    0.93229   0.93676   0.93452    107100
+           2    0.97446   0.98063   0.97754    127600
+           3    0.96773   0.98003   0.97384    116500
+
+    accuracy                        0.96053    456900
+   macro avg    0.95972   0.95907   0.95934    456900
+weighted avg    0.96054   0.96053   0.96048    456900
+
+Confusion matrix of training:
+[[ 99237   5021    632    810]
+ [  2719 100327   2061   1993]
+ [   492    976 125128   1004]
+ [   451   1290    586 114173]]
+Loss value in the last epoch of validation is:0.20148076117038727
+Accuracy in the last epoch of validation is:0.9533137679100037
+Accuracy of validation:0.9305949256342957
+Precision of validation:0.9288873542283644
+Recall of validation:0.9274345686995307
+Macro f1 score of validation:0.9278776413675212
+Classification report of validation:
+              precision    recall  f1-score   support
+
+           0    0.92651   0.90398   0.91510     26400
+           1    0.89672   0.85366   0.87466     26800
+           2    0.94197   0.97132   0.95642     31900
+           3    0.95036   0.98079   0.96533     29200
+
+    accuracy                        0.93059    114300
+   macro avg    0.92889   0.92743   0.92788    114300
+weighted avg    0.92993   0.93059   0.92998    114300
+
+Confusion matrix of validation:
+[[23865  1907   149   479]
+ [ 1604 22878  1636   682]
+ [  236   344 30985   335]
+ [   53   384   124 28639]]
+Average Inference Time: 0.00010795124062684363
+Test Accuracy%:  94.50800915331808 == 1239 / 1311
+Accuracy of test:0.9450800915331807
+Precision of test:0.9446366675690847
+Recall of test:0.9409222948438635
+Macro f1 score of test:0.9422277149460787
+Classification report of test:
+              precision    recall  f1-score   support
+
+           0    0.96364   0.88333   0.92174       300
+           1    0.88179   0.90196   0.89176       306
+           2    0.95952   0.99506   0.97697       405
+           3    0.97360   0.98333   0.97844       300
+
+    accuracy                        0.94508      1311
+   macro avg    0.94464   0.94092   0.94223      1311
+weighted avg    0.94554   0.94508   0.94478      1311
+
+Confusion matrix of test:
+[[265  32   0   3]
+ [  8 276  17   5]
+ [  2   0 403   0]
+ [  0   5   0 295]]
